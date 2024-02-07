@@ -7,18 +7,19 @@ const ArrayTest = (items,callback) => {
 }
 
 //const mock = (x) => 42 + x
-const mockCallback =  jest.fn(x => 42 + x );
+const mockCallback =  jest.fn(x => 42 + x);
 
 
-ArrayTest([0,1], mockCallback);
+ArrayTest([0,1,2], mockCallback);
 
 
 it("mock callback", ()=> {
 
     expect(mockCallback.mock.results[0].value).toBe(42)
     expect(mockCallback.mock.results[1].value).toBe(43)
+    expect(mockCallback.mock.results[2].value).toBe(44)
 
-    expect(mockCallback.mock.calls.length).toBe(2)
+    expect(mockCallback.mock.calls.length).toBe(3)
     // [call1, call2]
 
    expect(mockCallback.mock.calls[0][0]).toBe(0)
