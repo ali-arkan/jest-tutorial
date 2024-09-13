@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1713337886215' stop='1713337886218'>
+    <name>Sum function</name>
+    <title>Sum function</title>
+    <test-cases>
+        <test-case start='1713337886215' status='passed' stop='1713337886218'>
+            <name>adds 1 + 2 to equal 3</name>
+            <title>adds 1 + 2 to equal 3</title>
+            <labels>
+                <label name='story' value='BOND-007'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1713337886216' status='passed' stop='1713337886217'>
+                    <name>toplama startstep</name>
+                    <title>toplama startstep</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Toplama işlemi</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

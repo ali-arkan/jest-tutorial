@@ -1,0 +1,5 @@
+if (typeof Symbol !== 'undefined' && typeof Reflect !== 'undefined' && typeof Proxy !== 'undefined') {
+    console.log('ES6+ features are supported.');
+} else {
+    console.log('ES6+ features are not fully supported.');
+}

@@ -1,0 +1,25 @@
+{
+  "name": "5-jest-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jest.config.js",
+  "scripts": {
+    "test": "jest --config=jest.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@wdio/allure-reporter": "^8.34.0",
+    "allure-commandline": "^2.28.0",
+    "allure-jest": "^2.15.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "jasmine-allure-reporter": "^1.0.2",
+    "jest-allure": "^0.1.3"
+  }
+}

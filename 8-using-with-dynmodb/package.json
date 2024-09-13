@@ -1,0 +1,23 @@
+{
+
+  "scripts": {
+
+    "test": "jest"
+
+  },
+
+  "devDependencies": {
+
+    "@shelf/jest-dynamodb": "^3.4.4"
+
+  },
+
+  "dependencies": {
+
+   
+    "aws-sdk": "^3.577.0"
+
+  }
+
+}
+

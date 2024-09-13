@@ -40,8 +40,6 @@ describe('test multiply positive scenarios',() =>{
 })
 
 
-
-
 //remember types of variables in JavaScript
 /*
 https://code-boxx.com/javascript-null-vs-undefined-vs-empty/
