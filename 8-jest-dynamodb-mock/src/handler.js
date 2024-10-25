@@ -2,7 +2,7 @@ const dynamoDb = require('./dependencies');
 
 const getItem = async (id) => {
   const params = {
-    TableName: 'YourTableName',
+    TableName: 'MockDBTable',
     Key: { id },
   };
 

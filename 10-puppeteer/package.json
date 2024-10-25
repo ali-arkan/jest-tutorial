@@ -1,0 +1,12 @@
+{
+  "name": "10-puppeteer",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest-puppeteer": "^10.1.3"
+  }
+}
